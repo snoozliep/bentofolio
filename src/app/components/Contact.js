@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
+  faBehance,
   faGithub,
   faInstagram,
   faLinkedinIn,
@@ -175,10 +176,10 @@ export default function Contact() {
           icon={faInstagram}
           target='https://www.instagram.com/thecodedose/'
         />
-        <RedIconWrapper icon={faXTwitter} target="https://x.com/thecodedose" />
-        <BlackIconWrapper icon={faYoutube} target="https://www.youtube.com/channel/UCUqYu_GiAzFL4ErDEiK9xbA" />
-        <RedIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/ihsavru/" />
-        <BlackIconWrapper icon={faGithub} target="https://github.com/thecodedose"  />
+        <RedIconWrapper icon={faBehance} target="https://www.behance.net/snoozliep" />
+        <BlackIconWrapper icon={faYoutube} target="https://aziee13.carrd.co/#samples" />
+        <RedIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/arabelle-l-406911222/" />
+        <BlackIconWrapper icon={faGithub} target="https://github.com/snoozliep"  />
         <RedIconWrapper icon={faEnvelope} target="urvashi@thecodedose.com" isEmail />
       </div>
     </>
